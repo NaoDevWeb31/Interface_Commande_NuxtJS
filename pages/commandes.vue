@@ -4,16 +4,12 @@
         <div class="absolute top-1/4 left-0 w-screen">
             <h2 class="mx-6 mb-6 h2">Produits disponibles</h2>
             <div class="card-deck mx-6">
-                <div
+                <Produit
                     v-for="produit in produits"
                     :key="produit.nom"
-                    class="card text-white bg-dark mb-3 w-auto"
-                >
-                    <div class="card-header">{{ produit.nom }}</div>
-                    <div class="card-body">
-                        <p class="card-text">{{ produit.prix }}</p>
-                    </div>
-                </div>
+                    :nom="produit.nom"
+                    :prix="produit.prix"
+                />
             </div>
         </div>
     </div>
@@ -21,10 +17,13 @@
 
 <script>
 import titrePage from "@/components/titrePage.vue";
+import Produit from "~/components/Produit.vue";
+
 export default {
     name: "Commandes",
     components: {
         titrePage,
+        Produit,
     },
     data() {
         return {
