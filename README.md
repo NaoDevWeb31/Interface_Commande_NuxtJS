@@ -10,10 +10,6 @@ Pour de plus amples informations, retrouvez la [vidéo](https://youtu.be/dY85oo6
 
 <br/>
 
----
-
-<br/>
-
 ## NuxtJS
 
 ### ➤ Build Setup

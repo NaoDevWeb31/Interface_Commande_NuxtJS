@@ -1,5 +1,5 @@
 {
-    "name": "interface_commande",
+    "name": "interface_commande_nuxtjs",
     "version": "1.0.0",
     "private": true,
     "scripts": {
@@ -8,6 +8,17 @@
         "start": "nuxt start",
         "generate": "nuxt generate"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NaoDevWeb31/Interface_Commande_NuxtJS.git"
+    },
+    "keywords": [],
+    "author": "Naomi Mango",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NaoDevWeb31/Interface_Commande_NuxtJS/issues"
+    },
+    "homepage": "https://github.com/NaoDevWeb31/Interface_Commande_NuxtJS#readme",
     "dependencies": {
         "core-js": "^3.19.3",
         "nuxt": "^2.15.8",
