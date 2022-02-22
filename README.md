@@ -1,4 +1,4 @@
-# interfaceCommande
+# Interface_Commande_NuxtJS
 
 ## Objectif
 
@@ -8,7 +8,9 @@ Prendre en main le framework Nuxt JS grâce à un petit projet didactique !
 
 Pour de plus amples informations, retrouvez la [vidéo](https://youtu.be/dY85oo6-9K0 "TUTO Nuxt JS : Introduction avec un ( petit ) PROJET ! (fr)") sur YouTube.
 
-<br/>
+<p align="center">
+    <img src="https://i.ytimg.com/vi/dY85oo6-9K0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxqLU8OsMTQa-haOUo6BfWXQSKLw" title="Thumbnail TUTO Nuxt JS"/>
+</p>
 
 ## NuxtJS
 
