@@ -9,6 +9,18 @@
                     :key="produit.nom"
                     :nom="produit.nom"
                     :prix="produit.prix"
+                    role="commander"
+                    @commande="ajouterProduit"
+                />
+            </div>
+            <h2 class="m-6 h2">Produits commandés</h2>
+            <div class="card-deck mx-6">
+                <Produit
+                    v-for="produit in commandes"
+                    :key="produit.nom"
+                    :nom="produit.nom"
+                    role="affichage"
+                    :prix="produit.prix"
                 />
             </div>
         </div>
@@ -34,7 +46,13 @@ export default {
                 { nom: "Hamburger", prix: 2.5 },
                 { nom: "Cheeseburger", prix: 3.0 },
             ],
+            commandes: [{ nom: "Frites", prix: 2.0 }],
         };
+    },
+    methods: {
+        ajouterProduit(nom, prix) {
+            this.commandes.push({ nom: nom, prix: prix });
+        },
     },
 };
 </script>
